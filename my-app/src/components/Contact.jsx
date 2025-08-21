@@ -5,34 +5,34 @@ const Contact = () => {
   const contactInfo = [
     {
       icon: <MapPin className="w-6 h-6" />,
-      title: "Temple Address",
+      title: "ക്ഷേത്ര വിലാസം",
       details: [
-        "Kunnath Sree Bhagavathi Kshethram",
-        "Kunnath Village",
-        "Kerala, India"
+        "കുന്നത്ത് ശ്രീഭഗവതി ക്ഷേത്രം",
+        "കുന്നത്ത് ഗ്രാമം",
+        "കേരളം, ഇന്ത്യ"
       ]
     },
     {
       icon: <Phone className="w-6 h-6" />,
-      title: "Phone Numbers",
+      title: "ഫോൺ നമ്പറുകൾ",
       details: [
-        "Temple Office: +91 9876543210",
-        "Priest: +91 8765432109",
-        "Emergency: +91 7654321098"
+        "ക്ഷേത്രം ഓഫീസ്: +91 9876543210",
+        "പുരോഹിതൻ: +91 8765432109",
+        "അടിയന്തരാവസ്ഥ: +91 7654321098"
       ]
     },
     {
       icon: <Clock className="w-6 h-6" />,
-      title: "Temple Timings",
+      title: "ക്ഷേത്ര സമയക്രമം",
       details: [
-        "Morning: 5:00 AM - 12:00 PM",
-        "Evening: 4:00 PM - 9:00 PM",
-        "Special Events: As announced"
+        "രാവിലെ: 5:00 AM - 12:00 PM",
+        "വൈകുന്നേരം: 4:00 PM - 9:00 PM",
+        "പ്രത്യേക ഇവൻ്റുകൾ: പ്രഖ്യാപിച്ചത് പോലെ"
       ]
     },
     {
       icon: <Mail className="w-6 h-6" />,
-      title: "Contact Email",
+      title: "ബന്ധപ്പെടാനുള്ള ഇമെയിൽ",
       details: [
         "info@kunnathtemple.org",
         "events@kunnathtemple.org",
@@ -47,11 +47,10 @@ const Contact = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-            Visit Our Temple
+            നമ്മുടെ ക്ഷേത്രം സന്ദർശിക്കുക
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We welcome all devotees with open hearts. Feel free to reach out for any 
-            inquiries about services, events, or spiritual guidance.
+            എല്ലാ ഭക്തരെയും തുറന്ന മനസ്സോടെ ഞങ്ങൾ സ്വാഗതം ചെയ്യുന്നു. സേവനങ്ങൾ, പരിപാടികൾ, ആത്മീയ മാർഗനിർദേശങ്ങൾ എന്നിവയെക്കുറിച്ചുള്ള ഏതൊരു അന്വേഷണത്തിനും ബന്ധപ്പെടാൻ മടിക്കേണ്ട.
           </p>
         </div>
 
@@ -59,7 +58,7 @@ const Contact = () => {
           {/* Contact Information */}
           <div>
             <h3 className="text-3xl font-bold text-gray-800 mb-8">
-              Contact Information
+              ബന്ധപ്പെടാനുള്ള വിവരങ്ങൾ
             </h3>
             
             <div className="space-y-8">
@@ -87,16 +86,16 @@ const Contact = () => {
             {/* Quick Actions */}
             <div className="mt-12 space-y-4">
               <h4 className="text-lg font-semibold text-gray-800 mb-4">
-                Quick Actions
+                ദ്രുത പ്രവർത്തനങ്ങൾ
               </h4>
               <div className="flex flex-col sm:flex-row gap-4">
                 <button className="flex items-center justify-center gap-2 px-6 py-3 bg-gradient-to-r from-orange-600 to-red-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
                   <Navigation className="w-4 h-4" />
-                  Get Directions
+                  ദിശകൾ നേടുക
                 </button>
                 <button className="flex items-center justify-center gap-2 px-6 py-3 border-2 border-orange-600 text-orange-600 font-semibold rounded-lg hover:bg-orange-600 hover:text-white transition-all duration-300">
                   <Phone className="w-4 h-4" />
-                  Call Now
+                  ഇപ്പോൾ വിളിക്കൂ
                 </button>
               </div>
             </div>
@@ -105,7 +104,7 @@ const Contact = () => {
           {/* Map and Location */}
           <div>
             <h3 className="text-3xl font-bold text-gray-800 mb-8">
-              Find Us
+              ഞങ്ങളെ കണ്ടെത്തുക
             </h3>
             
             {/* Map Placeholder */}
@@ -113,10 +112,10 @@ const Contact = () => {
               <div className="text-center">
                 <MapPin className="w-16 h-16 text-gray-400 mx-auto mb-4" />
                 <p className="text-gray-500 text-lg font-medium">
-                  Interactive Map
+                  സംവേദനാത്മക മാപ്പ്
                 </p>
                 <p className="text-gray-400 text-sm">
-                  Kunnath Sree Bhagavathi Kshethram
+                  കുന്നത്ത് ശ്രീഭഗവതി ക്ഷേത്രം
                 </p>
               </div>
             </div>
@@ -124,14 +123,14 @@ const Contact = () => {
             {/* Location Details */}
             <div className="bg-gradient-to-br from-orange-50 to-red-50 rounded-xl p-6">
               <h4 className="text-lg font-semibold text-gray-800 mb-4">
-                How to Reach
+                എങ്ങനെ എത്തിച്ചേരാം
               </h4>
               <ul className="space-y-2 text-gray-600">
-                <li>• Located in the heart of Kunnath village</li>
-                <li>• Easily accessible by private and public transport</li>
-                <li>• Parking available for devotees</li>
-                <li>• Wheelchair accessible entrance</li>
-                <li>• Public restrooms and drinking water available</li>
+                <li>• കുന്നത്ത് ഗ്രാമത്തിന്റെ ഹൃദയഭാഗത്ത് സ്ഥിതിചെയ്യുന്നു</li>
+                <li>• സ്വകാര്യ, പൊതുഗതാഗതമാർഗ്ഗങ്ങളിൽ എളുപ്പത്തിൽ എത്തിച്ചേരാം</li>
+                <li>• ഭക്തർക്ക് പാർക്കിംഗ് സൗകര്യം</li>
+                <li>• വീൽചെയറിൽ പ്രവേശിക്കാവുന്ന പ്രവേശന കവാടം</li>
+                <li>• പൊതു ശൗചാലയങ്ങളും കുടിവെള്ളവും ലഭ്യമാണ്</li>
               </ul>
             </div>
           </div>

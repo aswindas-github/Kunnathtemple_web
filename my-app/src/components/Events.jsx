@@ -4,46 +4,46 @@ import { Calendar, Clock, MapPin, Star } from 'lucide-react';
 const Events = () => {
   const upcomingEvents = [
     {
-      title: "Navarathri Festival",
-      date: "October 15-23, 2024",
+      title: "നവരാത്രി ഉത്സവം",
+      date: "ഒക്ടോബർ 15-23, 2024",
       time: "6:00 AM - 9:00 PM",
-      description: "Nine-day celebration honoring Goddess Durga with special poojas, cultural programs, and devotional activities.",
-      image: "https://images.pexels.com/photos/7879443/pexels-photo-7879443.jpeg",
+      description: "പ്രത്യേക പൂജകൾ, സാംസ്കാരിക പരിപാടികൾ, ഭക്തിപരമായ പ്രവർത്തനങ്ങൾ എന്നിവയോടെ ദുർഗ്ഗാ ദേവിയെ ആദരിക്കുന്ന ഒമ്പത് ദിവസത്തെ ആഘോഷം.",
+      image: "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrUZ4ibWaBzdii3c0CIHvw4X5xxw2stk_4pOu9P6rUysWJCK-VNrdikPteeZpRjZzDxySfmXKCcxxjDevhc-fPVLhyhM48oIONEFBajaFOTV4cN3lJ3g3tfxwfDp8jzhhFEjwHBLPZ3lPpL=s1360-w1360-h1020-rw",
       featured: true
     },
     {
-      title: "Monthly Bhajan Session",
-      date: "Every 2nd Saturday",
+      title: "പ്രതിമാസ ഭജന സെഷൻ",
+      date: "എല്ലാ രണ്ടാമത്തെ ശനിയാഴ്ചയും",
       time: "7:00 PM - 9:00 PM",
-      description: "Community gathering for devotional singing and spiritual discourse.",
-      image: "https://images.pexels.com/photos/8828576/pexels-photo-8828576.jpeg",
+      description: "ഭക്തിഗാനത്തിനും ആത്മീയ പ്രഭാഷണത്തിനുമുള്ള സമൂഹ ഒത്തുചേരൽ.",
+      image: "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqZUFFlPuTnxhYBYXOqcTGkKiLy148wEdAOb8Q7JoJ2lt9K7hAKRGkK2IoeN_R3saMqJE-zNDa0sc6fmxZKDbM3faQSN0LBvg6fXgELZa4ISGkPd57-dO_Lnl8EJbH5IfCXA-o=s1360-w1360-h1020-rw",
       featured: false
     },
     {
-      title: "Devi Pooja",
-      date: "Every Friday",
+      title: "ദേവീ പൂജ",
+      date: "എല്ലാ വെള്ളിയാഴ്ചയും",
       time: "7:00 AM",
-      description: "Special abhishekam and archana dedicated to Sree Bhagavathi Devi.",
-      image: "https://images.pexels.com/photos/3692748/pexels-photo-3692748.jpeg",
+      description: "ശ്രീഭഗവതി ദേവിക്ക് പ്രത്യേക അഭിഷേകവും അർച്ചനയും.",
+      image: "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noGK0jhsb9QsCH-RBn7sidyr5vLWK4ZeVIIhp36dZZO-bCQDQeETFq1pK7XlksJUWXcKTNgjjf2gr7otq-i7gNvO0RG-lqw8ppBsEc4_F_U5l_9Z31OhhPzRKjsHoTiWMBZBQkaKloYaPVC=s1360-w1360-h1020-rw",
       featured: false
     }
   ];
 
   const pastEvents = [
     {
-      title: "Annual Temple Festival",
-      date: "March 2024",
-      description: "Grand celebration with traditional music, dance, and community feast."
+      title: "വാർഷിക ക്ഷേത്രോത്സവം",
+      date: "മാർച്ച് 2024",
+      description: "പരമ്പരാഗത സംഗീതം, നൃത്തം, സമൂഹ വിരുന്ന് എന്നിവയോടുകൂടിയ ഗംഭീരമായ ആഘോഷം."
     },
     {
-      title: "Saraswathi Pooja",
-      date: "February 2024",
-      description: "Special worship dedicated to Goddess Saraswathi for knowledge and wisdom."
+      title: "സരസ്വതി പൂജ",
+      date: "ഫെബ്രുവരി 2024",
+      description: "അറിവിനും ജ്ഞാനത്തിനും വേണ്ടി സരസ്വതി ദേവിക്ക് സമർപ്പിച്ചിരിക്കുന്ന പ്രത്യേക ആരാധന."
     },
     {
-      title: "New Year Celebration",
-      date: "January 2024",
-      description: "Welcomed the new year with special prayers and blessings."
+      title: "പുതുവത്സരാഘോഷം",
+      date: "ജനുവരി 2024",
+      description: "പ്രത്യേക പ്രാർത്ഥനകളോടെയും അനുഗ്രഹങ്ങളോടെയും പുതുവത്സരത്തെ സ്വാഗതം ചെയ്തു."
     }
   ];
 
@@ -53,18 +53,17 @@ const Events = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-            Events & Festivals
+            ഇവൻ്റുകളും ഉത്സവങ്ങളും
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Join us in celebrating sacred festivals and spiritual gatherings that bring 
-            our community together in devotion and joy.
+            നമ്മുടെ സമൂഹത്തെ ഭക്തിയിലും സന്തോഷത്തിലും ഒന്നിപ്പിക്കുന്ന പവിത്രമായ ഉത്സവങ്ങളും ആത്മീയ ഒത്തുചേരലുകളും ആഘോഷിക്കുന്നതിൽ ഞങ്ങളോടൊപ്പം ചേരൂ.
           </p>
         </div>
 
         {/* Upcoming Events */}
         <div className="mb-20">
           <h3 className="text-3xl font-bold text-gray-800 mb-8 text-center">
-            Upcoming Events
+            വരാനിരിക്കുന്ന ഇവൻ്റുകൾ
           </h3>
           
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -121,7 +120,7 @@ const Events = () => {
         {/* Past Events */}
         <div>
           <h3 className="text-3xl font-bold text-gray-800 mb-8 text-center">
-            Recent Celebrations
+            സമീപകാല ആഘോഷങ്ങൾ
           </h3>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -148,13 +147,13 @@ const Events = () => {
         <div className="text-center mt-16">
           <div className="bg-gradient-to-r from-orange-600 to-red-600 rounded-xl p-8 text-white">
             <h3 className="text-2xl font-bold mb-4">
-              Stay Updated on Temple Events
+              ക്ഷേത്ര പരിപാടികളെക്കുറിച്ച് അപ്‌ഡേറ്റ് ചെയ്‌തുകൊണ്ടിരിക്കുക
             </h3>
             <p className="mb-6 opacity-90">
-              Follow our temple activities and never miss a celebration or spiritual gathering.
+              ഞങ്ങളുടെ ക്ഷേത്ര പ്രവർത്തനങ്ങൾ പിന്തുടരുക, ഒരു ആഘോഷമോ ആത്മീയ ഒത്തുചേരലോ ഒരിക്കലും നഷ്ടപ്പെടുത്തരുത്.
             </p>
             <button className="px-8 py-3 bg-white text-orange-600 font-semibold rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300">
-              Subscribe to Updates
+              അപ്ഡേറ്റുകൾക്ക് സബ്സ്ക്രൈബ് ചെയ്യുക
             </button>
           </div>
         </div>

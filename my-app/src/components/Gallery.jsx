@@ -6,35 +6,35 @@ const Gallery = () => {
 
   const galleryImages = [
     {
-      url: "https://images.pexels.com/photos/3692755/pexels-photo-3692755.jpeg",
+      url: "https://templesofkerala.org/kozhikode/img/157.jpg",
       title: "Temple Architecture"
     },
     {
-      url: "https://images.pexels.com/photos/3692748/pexels-photo-3692748.jpeg",
+      url: "https://templesofkerala.org/kozhikode/img/159.jpg",
       title: "Sacred Sanctum"
     },
     {
-      url: "https://images.pexels.com/photos/8828581/pexels-photo-8828581.jpeg",
+      url: "https://templesofkerala.org/kozhikode/img/160.jpg",
       title: "Daily Rituals"
     },
     {
-      url: "https://images.pexels.com/photos/6436308/pexels-photo-6436308.jpeg",
+      url: "https://templesofkerala.org/kozhikode/img/161.jpg",
       title: "Festival Decorations"
     },
     {
-      url: "https://images.pexels.com/photos/8828576/pexels-photo-8828576.jpeg",
+      url: "https://templesofkerala.org/kozhikode/img/158.jpg",
       title: "Devotional Gathering"
     },
     {
-      url: "https://images.pexels.com/photos/7879443/pexels-photo-7879443.jpeg",
+      url: "https://templesofkerala.org/kozhikode/img/159.jpg",
       title: "Festival Celebrations"
     },
     {
-      url: "https://images.pexels.com/photos/4195378/pexels-photo-4195378.jpeg",
+      url: "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrUZ4ibWaBzdii3c0CIHvw4X5xxw2stk_4pOu9P6rUysWJCK-VNrdikPteeZpRjZzDxySfmXKCcxxjDevhc-fPVLhyhM48oIONEFBajaFOTV4cN3lJ3g3tfxwfDp8jzhhFEjwHBLPZ3lPpL=s1360-w1360-h1020-rw",
       title: "Prayer Rituals"
     },
     {
-      url: "https://images.pexels.com/photos/4913426/pexels-photo-4913426.jpeg",
+      url: "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqZUFFlPuTnxhYBYXOqcTGkKiLy148wEdAOb8Q7JoJ2lt9K7hAKRGkK2IoeN_R3saMqJE-zNDa0sc6fmxZKDbM3faQSN0LBvg6fXgELZa4ISGkPd57-dO_Lnl8EJbH5IfCXA-o=s1360-w1360-h1020-rw",
       title: "Temple Offerings"
     }
   ];
@@ -53,11 +53,10 @@ const Gallery = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-            Temple Gallery
+            ക്ഷേത്ര ഗാലറി
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Explore the divine beauty and sacred moments captured within our temple premises 
-            and during various celebrations.
+            നമ്മുടെ ക്ഷേത്രപരിസരത്തും വിവിധ ആഘോഷങ്ങളിലും പകർത്തിയ ദിവ്യ സൗന്ദര്യവും പുണ്യ നിമിഷങ്ങളും പര്യവേക്ഷണം ചെയ്യുക.
           </p>
         </div>
 
@@ -106,13 +105,13 @@ const Gallery = () => {
         <div className="text-center mt-16">
           <div className="bg-white rounded-xl shadow-lg p-8 max-w-2xl mx-auto">
             <h3 className="text-2xl font-bold text-gray-800 mb-4">
-              Visit Our Temple
+              നമ്മുടെ ക്ഷേത്രം സന്ദർശിക്കുക
             </h3>
             <p className="text-gray-600 mb-6">
-              Experience the divine atmosphere and sacred energy in person. All devotees are welcome.
+              ദിവ്യമായ അന്തരീക്ഷവും പവിത്രമായ ഊർജ്ജവും നേരിട്ട് അനുഭവിക്കൂ. എല്ലാ ഭക്തർക്കും സ്വാഗതം.
             </p>
             <button className="px-8 py-3 bg-gradient-to-r from-orange-600 to-red-600 text-white font-semibold rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300">
-              Plan Your Visit
+              നിങ്ങളുടെ സന്ദർശനം ആസൂത്രണം ചെയ്യുക
             </button>
           </div>
         </div>

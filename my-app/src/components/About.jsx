@@ -5,23 +5,23 @@ const About = () => {
   const features = [
     {
       icon: <Heart className="w-8 h-8 text-red-600" />,
-      title: "Divine Blessings",
-      description: "Experience the divine grace of Sree Bhagavathi Devi"
+      title: "ദൈവിക അനുഗ്രഹങ്ങൾ",
+      description: "ശ്രീ ഭഗവതി ദേവിയുടെ ദിവ്യകാരുണ്യം അനുഭവിക്കൂ"
     },
     {
       icon: <Star className="w-8 h-8 text-yellow-600" />,
-      title: "Sacred Traditions",
-      description: "Preserving ancient rituals and spiritual practices"
+      title: "പവിത്രമായ പാരമ്പര്യങ്ങൾ",
+      description: "പുരാതന ആചാരങ്ങളും ആത്മീയ ആചാരങ്ങളും സംരക്ഷിക്കൽ"
     },
     {
       icon: <Users className="w-8 h-8 text-orange-600" />,
-      title: "Community Unity",
-      description: "Bringing families and communities together in faith"
+      title: "കമ്മ്യൂണിറ്റി ഐക്യം",
+      description: "കുടുംബങ്ങളെയും സമൂഹങ്ങളെയും വിശ്വാസത്തിൽ ഒന്നിപ്പിക്കൽ"
     },
     {
       icon: <Calendar className="w-8 h-8 text-blue-600" />,
-      title: "Festivals & Events",
-      description: "Celebrating sacred occasions throughout the year"
+      title: "ഉത്സവങ്ങളും പരിപാടികളും",
+      description: "വർഷം മുഴുവനും പുണ്യ മുഹൂർത്തങ്ങൾ ആഘോഷിക്കുന്നു"
     }
   ];
 
@@ -31,11 +31,10 @@ const About = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-            About Our Sacred Temple
+            നമ്മുടെ വിശുദ്ധ ക്ഷേത്രത്തെക്കുറിച്ച്
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Kunnath Sree Bhagavathi Kshethram stands as a beacon of spiritual light, 
-            connecting generations through devotion, tradition, and divine grace.
+            കുന്നത്ത് ശ്രീ ഭഗവതി ക്ഷേത്രം, ഭക്തി, പാരമ്പര്യം, ദിവ്യകാരുണ്യങ്ങൾ എന്നിവയിലൂടെ തലമുറകളെ ബന്ധിപ്പിക്കുന്ന ആത്മീയ പ്രകാശത്തിന്റെ ഒരു ദീപസ്തംഭമായി നിലകൊള്ളുന്നു.
           </p>
         </div>
 
@@ -44,18 +43,13 @@ const About = () => {
           <div>
             <div className="mb-8">
               <h3 className="text-3xl font-bold text-gray-800 mb-4">
-                A Legacy of Faith
+                വിശ്വാസത്തിൻ്റെ ഒരു പാരമ്പര്യം
               </h3>
               <p className="text-lg text-gray-600 leading-relaxed mb-6">
-                For generations, our family temple has been a cornerstone of spiritual life, 
-                dedicated to the worship of Sree Bhagavathi Devi. The temple serves as a 
-                sacred space where devotees find solace, seek blessings, and connect with 
-                the divine presence.
+                തലമുറകളായി, ഞങ്ങളുടെ കുടുംബ ക്ഷേത്രം ആത്മീയ ജീവിതത്തിന്റെ ഒരു മൂലക്കല്ലായി വർത്തിക്കുന്നു, ശ്രീ ഭഗവതി ദേവിയുടെ ആരാധനയ്ക്കായി സമർപ്പിച്ചിരിക്കുന്നു. ഭക്തർക്ക് ആശ്വാസം കണ്ടെത്താനും, അനുഗ്രഹങ്ങൾ തേടാനും, ദിവ്യസാന്നിധ്യവുമായി ബന്ധപ്പെടാനും കഴിയുന്ന ഒരു പുണ്യസ്ഥലമായി ഈ ക്ഷേത്രം പ്രവർത്തിക്കുന്നു.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Our temple follows traditional Kerala architectural style and maintains 
-                ancient Vedic practices, ensuring the preservation of our rich cultural 
-                heritage while welcoming devotees from all walks of life.
+                ഞങ്ങളുടെ ക്ഷേത്രം പരമ്പരാഗത കേരള വാസ്തുവിദ്യാ ശൈലി പിന്തുടരുകയും പുരാതന വേദ ആചാരങ്ങൾ നിലനിർത്തുകയും ചെയ്യുന്നു, നമ്മുടെ സമ്പന്നമായ സാംസ്കാരിക പൈതൃകത്തിന്റെ സംരക്ഷണം ഉറപ്പാക്കുകയും ജീവിതത്തിന്റെ എല്ലാ തുറകളിൽ നിന്നുമുള്ള ഭക്തരെ സ്വാഗതം ചെയ്യുകയും ചെയ്യുന്നു.
               </p>
             </div>
 
@@ -79,22 +73,22 @@ const About = () => {
           <div className="relative">
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="https://images.pexels.com/photos/3692748/pexels-photo-3692748.jpeg"
+                src="https://templesofkerala.org/kozhikode/img/160.jpg"
                 alt="Temple Interior"
                 className="rounded-xl shadow-lg h-48 w-full object-cover"
               />
               <img
-                src="https://images.pexels.com/photos/8828581/pexels-photo-8828581.jpeg"
+                src="https://templesofkerala.org/kozhikode/img/161.jpg"
                 alt="Temple Rituals"
                 className="rounded-xl shadow-lg h-48 w-full object-cover mt-8"
               />
               <img
-                src="https://images.pexels.com/photos/6436308/pexels-photo-6436308.jpeg"
+                src="https://templesofkerala.org/kozhikode/img/158.jpg"
                 alt="Temple Decorations"
                 className="rounded-xl shadow-lg h-48 w-full object-cover -mt-8"
               />
               <img
-                src="https://images.pexels.com/photos/8828576/pexels-photo-8828576.jpeg"
+                src="https://templesofkerala.org/kozhikode/img/159.jpg"
                 alt="Devotees Praying"
                 className="rounded-xl shadow-lg h-48 w-full object-cover"
               />

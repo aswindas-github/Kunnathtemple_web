@@ -13,7 +13,7 @@ const Header = () => {
         <div className="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-4">
           <div className="flex items-center gap-2">
             <Clock className="w-4 h-4" />
-            <span>Daily: 5:00 AM - 12:00 PM | 4:00 PM - 9:00 PM</span>
+            <span>ദിവസേന: 5:00 AM - 12:00 PM | 4:00 PM - 9:00 PM</span>
           </div>
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-2">
@@ -22,7 +22,7 @@ const Header = () => {
             </div>
             <div className="flex items-center gap-2">
               <MapPin className="w-4 h-4" />
-              <span>Kunnath, Kerala</span>
+              <span>കുന്നത്ത്, കേരളം</span>
             </div>
           </div>
         </div>
@@ -35,8 +35,8 @@ const Header = () => {
             {/* Logo/Title */}
             <div className="flex items-center">
               <div className="text-2xl md:text-3xl font-bold text-orange-600">
-                <span className="text-red-600">🕉️</span> Kunnath Sree Bhagavathi
-                <div className="text-lg md:text-xl text-gray-700 font-medium">Kshethram</div>
+                <span className="text-red-600">🕉️</span> കുന്നത്ത് ശ്രീ ഭഗവതി
+                <div className="text-lg md:text-xl text-gray-700 font-medium">ക്ഷേത്രം</div>
               </div>
             </div>
 

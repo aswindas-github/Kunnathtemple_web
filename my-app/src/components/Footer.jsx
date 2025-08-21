@@ -12,19 +12,17 @@ const Footer = () => {
               <span className="text-3xl mr-3">🕉️</span>
               <div>
                 <h3 className="text-2xl font-bold text-orange-400">
-                  Kunnath Sree Bhagavathi
+                  കുന്നത്ത് ശ്രീ ഭഗവതി
                 </h3>
-                <p className="text-lg text-gray-300">Kshethram</p>
+                <p className="text-lg text-gray-300">ക്ഷേത്രം</p>
               </div>
             </div>
             <p className="text-gray-300 leading-relaxed mb-6 max-w-md">
-              A sacred family temple dedicated to Sree Bhagavathi Devi, serving the 
-              spiritual needs of devotees with traditional rituals, festivals, and 
-              divine blessings for generations.
+              ശ്രീ ഭഗവതി ദേവിക്ക് സമർപ്പിച്ചിരിക്കുന്ന ഒരു പവിത്രമായ കുടുംബ ക്ഷേത്രം, പരമ്പരാഗത ആചാരങ്ങൾ, ഉത്സവങ്ങൾ, തലമുറകളായി ദിവ്യാനുഗ്രഹങ്ങൾ എന്നിവയാൽ ഭക്തരുടെ ആത്മീയ ആവശ്യങ്ങൾ നിറവേറ്റുന്നു.
             </p>
             <div className="flex items-center gap-2 text-orange-400">
               <Heart className="w-5 h-5" />
-              <span className="text-sm">Spreading Divine Love & Blessings</span>
+              <span className="text-sm">ദിവ്യസ്നേഹവും അനുഗ്രഹങ്ങളും പകരുന്നു</span>
             </div>
           </div>
 
@@ -64,8 +62,8 @@ const Footer = () => {
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-orange-400 mt-0.5 flex-shrink-0" />
                 <div className="text-sm text-gray-300">
-                  <p>Kunnath Village</p>
-                  <p>Kerala, India</p>
+                  <p>കുന്നത്ത് ഗ്രാമം</p>
+                  <p>കേരളം, ഇന്ത്യ</p>
                 </div>
               </div>
               <div className="flex items-center gap-3">
